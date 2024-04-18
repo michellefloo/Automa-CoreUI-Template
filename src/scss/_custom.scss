@@ -1,0 +1,40 @@
+// Here you can add other styles
+
+.sidebar-nav .nav-group-items {
+  margin: 20px;
+  // margin-left: 20px;
+}
+
+.sidebar-nav .nav-group-items .nav-link {
+  padding-left: 40px !important;
+}
+
+.nav-group-items .nav-link.active,
+.nav-group-items .nav-link:hover {
+  border-radius: 10px 0 0 10px !important; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.breadcrumb-item a {
+  color: #1272cc !important;
+}
+
+.dark-theme .breadcrumb-item.active {
+  color: #71bafd !important;
+}
+
+.avatar-img {
+  width: 100%;
+  height: auto;
+  border-radius: 0em !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(216, 216, 216);
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}

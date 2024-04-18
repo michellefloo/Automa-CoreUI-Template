@@ -1,0 +1,66 @@
+.directions {
+  position: relative; /* Ubah dari absolute menjadi relative */
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000;
+  max-width: 300px; /* Atur lebar maksimum sesuai kebutuhan */
+  margin-left: auto;
+  overflow-y: auto;
+}
+
+.directions h2,
+.directions p,
+.directions ul {
+  margin: 5px 0; /* Atur margin atas dan bawah */
+}
+
+.directions button {
+  border: none;
+  background-color: white;
+  text-align: left;
+  color: #1272cc;
+  font-weight: 500;
+}
+
+.live-monitoring-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Sesuaikan tinggi container dengan tinggi layar */
+  overflow: hidden; /* Sembunyikan overflow agar tidak muncul di luar container */
+}
+
+.direction-container {
+  flex: 1; /* Biarkan setiap komponen Direction mengisi lebar yang sama */
+  margin: 10px; /* Beri jarak antara setiap komponen Direction */
+  overflow-y: auto;
+}
+
+/* .directions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1000;
+  max-width: 300px; 
+}
+
+.directions h2,
+.directions p,
+.directions ul {
+  margin: 5px 0; 
+}
+
+.directions button {
+  border: none;
+  background-color: white;
+  text-align: left;
+  color: #1272cc;
+  font-weight: 500;
+}
+
+ */
